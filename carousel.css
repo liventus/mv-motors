@@ -1,14 +1,40 @@
-/* GLOBAL STYLES
+@media screen and (min-width: 400px) {
+    body img .imagenslider1{
+        
+        src: url("images/imagen51.jpg") ;
+    }
+}
 
+@media screen and (max-width: 399px) {
+    body img .imagenslider1{
+         src: url("images/imagen51.jpg") ;
 
--------------------------------------------------- */
+    }
+}
 /* Padding below the footer and lighter body text */
+@font-face {
+  font-family: fuente_1;
+  font-style: cursive;
+  font-weight: normal;
+  src: url(coolvetica_rg.ttf) ;
 
- .col-md-6:hover .img-fluid {-webkit-transform:scale(1.15);transform:scale(1.15);}
+}
+
+h1 h3 .tipografia_1 {
+  font-family: fuente_1;
+
+}
+
+ .col-md-6:hover  .img-fluid {-webkit-transform:scale(1.15);transform:scale(1.15);}
  .col-md-6 {overflow:hidden;}
 
 .tablam:hover .img-fluid {-webkit-transform:scale(1.15);transform:scale(1.15);}
 .tablam {overflow:hidden;}
+
+.col-md-2:hover .img-fluid {-webkit-transform:scale(1.15);transform:scale(1.15);}
+.col-md-2 {overflow:hidden;}
+
+
 
 body {
   padding-top: 3rem;
@@ -97,3 +123,4 @@ body {
     margin-top: 7rem;
   }
 }
+
